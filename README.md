@@ -1,2 +1,1 @@
-# install_node
-Installer Node 0.0.1
+# Node Installer 0.0.1
