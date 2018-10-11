@@ -35,13 +35,13 @@ echo -e "Install Node.js (tested with version 6.9.2, but any recent LTS release 
 sudo apt-get install -y nodejs
 sudo npm install -g n
 sudo n 6.9.2
-npm install forever -g
+sudo npm install forever -g
 #Install grunt-cli (globally):
 echo -e "#Install grunt-cli (globally):\n"
 sudo npm install grunt-cli -g
 #Install node modules:
 echo -e "#Install node modules:\n"
-npm install libpq secp256k1
+sudo npm install libpq secp256k1
 npm install
 sudo apt-get install -y postgresql postgresql-contrib
 sudo -u postgres createuser -P --createdb $USER
