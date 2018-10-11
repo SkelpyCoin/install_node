@@ -42,7 +42,7 @@ sudo npm install grunt-cli -g
 #Install node modules:
 echo -e "#Install node modules:\n"
 sudo npm install libpq secp256k1
-npm install
+sudo npm install
 sudo apt-get install -y postgresql postgresql-contrib
 sudo -u postgres createuser -P --createdb $USER
 dropdb skp_testnet
